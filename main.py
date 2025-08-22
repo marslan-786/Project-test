@@ -1,7 +1,6 @@
 import requests, random, time, re
 from faker import Faker
 from tqdm import tqdm
-from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, ConversationHandler
 
 
